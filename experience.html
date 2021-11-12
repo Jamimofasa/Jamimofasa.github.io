@@ -6,11 +6,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <h2>Experience</h2>
-    <style>
-        h3 {
-            text-align: left;
-        }
-    </style>
+
 </head>
 
 
@@ -18,24 +14,26 @@
     <!-- List of links -->
     <!-- About Me, Work Experience, Projects, Education -->
     <!-- hyperlinks to linkedin and git -->
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./aboutMe.html">About Me</a>
-        <a href="./education.html">Education</a>
-        <a href="https://www.linkedin.com/in/james-morand/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Jamimofasa" target="_blank">github</a>
 
-    </nav>
+    <ul class="navigationBar">
+        <li> <a href="./index.html" id="link1">Home</a></li>
+        <li><a href="./aboutMe.html" id="link2">About Me</a></li>
+        <li> <a href="./education.html" id="link3">Education</a></li>
+        <li> <a href="https://www.linkedin.com/in/james-morand/" target="_blank" id="link4">LinkedIn</a></li>
+        <li> <a href="https://github.com/Jamimofasa" target="_blank" id="link5">Github</a></li>
+    </ul>
 
-    <div>
+
+    <div class="left">
         <h3>Portfolio Website</h3>
         <ul>
             <li>Used multiple pages of HTML</li>
             <li>css sheet</li>
+            <li>JavaScript</li>
             <li>Hosted on Github</li>
         </ul>
     </div>
-    <div>
+    <div class="left">
         <h3>DNS Sinkhole/Pi Hole</h3>
         <ul>
             <li>Learned DNS, basic understanding UPD/TCP IP</li>
@@ -44,7 +42,16 @@
             <li>Worked with Linux Distribution</li>
         </ul>
     </div>
+    <div class="left">
+        <h3>In Progress -- Image to Ascii converter</h3>
+        <ul>
+            <li>Uses bufferImage class</li>
+            <li>Takes an image and converts to .txt file as Ascii art</li>
+        </ul>
+    </div>
 
 </body>
+
+<script src="script.js"></script>
 
 </html>
