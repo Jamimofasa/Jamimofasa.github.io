@@ -94,6 +94,10 @@ a {
 .left {
     float: left;
     padding: 10px;
+    margin-right: 1ex;
+}
+div.aboutMe{
+    margin: 10em;
 }
 div.gallery {
     margin: 5px;
